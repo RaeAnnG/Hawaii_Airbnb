@@ -13,8 +13,8 @@
 
 Hawaii_Airbnb:
 
-----The Airbnb Analysis project focuses on analyzing Airbnb data from the travel industry and property management domain. By leveraging SQL PG admin and various data analysis and visualization tools, we extracted valuable insights into pricing dynamics, availability patterns, and location-based trends in Airbnb listings.
-We focused on the Koloa-Poipu neighborhood in Kauai, Hawaii
+----The Airbnb Analysis project focuses on analyzing Airbnb data from the travel industry and property management domain. By leveraging SQL admin and various data analysis machine learning and visualization tools, we extracted valuable insights into predition models, availability patterns, and location-based trends in Airbnb listings.
+We focused on the State of Hawaii
 
 ####  Objective:
 The primary focus of this data analysis project is to retrieve a prediction of the future super hosts featured on airBNB's based in Hawaii. By analyzing various data sources, we were able to find key variables to use for our predictive model returning a accuracy rating over 75%
@@ -24,7 +24,7 @@ Gathered data on airbnb rentals in Hawaii.
 Analyze seasonal fluctuations for super host predictions, average price, rating, response rate, host acceptance rate,	host identity verified,	price, has availability.
 
 #### Seasonal Trends:
-Explore seasonal variations based on fluctuating rating systems----------- and prices
+Explore seasonal variations based on fluctuating rating systems and prices
 Identified peak tourist seasons.
 
 ### Objectives
@@ -40,9 +40,9 @@ The primary objectives of this project include:
 
 ### 1. Data Source -----------------
 
-The project utilizes SQL, SQLite, as the data source, containing sample Airbnb data. The data includes information about listings, hosts, neighborhoods, pricing, ratings, and more.
+The project utilizes SQL, Python, as the data source, containing sample Airbnb data. The data includes information about listings, hosts, neighborhoods, pricing, ratings, and more.
 
-### Data source references:---------------
+### Data source references:---------------?
 * http://insideairbnb.com/get-the-data
 * https://koloalandingresort.com/kauai-travel-guide/ (image for HTML landing page:) 
 * Hawaii Tourism Authority - https://data.uhero.hawaii.edu/dvw/#/module/trend
