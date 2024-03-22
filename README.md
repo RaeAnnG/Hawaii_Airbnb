@@ -10,8 +10,7 @@
 
 Hawaii_Airbnb:
 
-----The Airbnb Analysis project focuses on analyzing Airbnb data from the travel industry and property management domain. By leveraging SQL admin and various data analysis machine learning and visualization tools, we extracted valuable insights into predition models, availability patterns, and location-based trends in Airbnb listings.
-We focused on the State of Hawaii
+----The Airbnb Analysis project focuses on analyzing Airbnb data from the travel industry and property management domain. By leveraging SQL admin and various data analysis machine learning and visualization tools, we extracted valuable insights into predition models, availability patterns, and location-based trends in Airbnb listings. Focused in the State of Hawaii.
 
 ####  Objective:
 The primary focus of this data analysis project is to retrieve a prediction of the future super hosts featured on airBNB's based in Hawaii. By analyzing various data sources, we were able to find key variables to use for our predictive model returning a accuracy rating over 75%
@@ -20,9 +19,8 @@ The primary focus of this data analysis project is to retrieve a prediction of t
 Gathered data on airbnb rentals in Hawaii.
 Analyze seasonal fluctuations for super host predictions, average price, rating, response rate, host acceptance rate,	host identity verified,	price, has availability.
 
-#### Seasonal Trends:
-Explore seasonal variations based on fluctuating rating systems and prices
-Identified peak tourist seasons.
+#### Property Trends:
+Explore variations of preffered property types based on hosts vs Super host status
 
 ### Objectives
 
@@ -37,7 +35,7 @@ The primary objectives of this project include:
 
 ### 1. Data Source -----------------
 
-The project utilizes SQL, Python, as the data source, containing sample Airbnb data. The data includes information about listings, hosts, neighborhoods, pricing, ratings, and more.
+The project utilizes SQL, Python, as the data source, containing sample Airbnb data. The data includes information about listings, hosts, super hosts, neighborhoods, pricing, ratings, and more.
 
 ### Data source references:---------------?
 * http://insideairbnb.com/get-the-data
@@ -59,14 +57,15 @@ The dataset underwent a comprehensive data cleaning and preparation process. Thi
 
 ### Visualization using tableau--------
 
-We developed a street view and topographic map web application that utilizes geospatial data from the Airbnb dataset. Interactive maps were created to visualize the distribution of Airbnb listings across different locations, allowing users to explore prices, ratings, and other information on hosts. 
+We developed a visualization in tablueau including an overview on the top 25 hosts and AirBNB property types they owned. Utalizing a Room Type Filter with topographic map web application that displays geospatial data from the Airbnb dataset. With an additional data visualization overview of the prevelence for short term airbnb rentals compared to longterm options
+
 ### Price Analysis and Visualization
 
-Using the cleaned data, we conducted linear model for the accuracy for predictions on future possible super hosts. Varying across Hawaii in different neighborhoods, property types, and seasons. Dynamic plots and charts were created to enable users to explore accuracy outliers, and correlations with other variables.
+Using the cleaned data, we conducted linear model for the accuracy for predictions on future possible super hosts. Varying across Hawaii in different neighborhoods, Host property types, and seasons. Dynamic plots and charts were created to enable users to explore accuracy outliers, and correlations with other variables.
 
 ### Analysis by -----------------
 
-We analyzed the data based on host response rate, host acceptance rate, wether host is a superhost and more. Fluctuations throughout the year were visualized using bar charts and pie graphs.
+We analyzed the data focused on host response rate, host acceptance rate, whether host is a superhost and more. Preferences based on 
 
 ###Process
 
@@ -74,14 +73,13 @@ We investigated how some hosts and super hosts own multiple porperties and corre
 
 ### Interactive Visualizations
 
-Dynamic and interactive visualizations enable users to interact with specific regions, property types, or areas of interest.
+Dynamic and interactive visualizations enable users to interact with specific regions, property types, or host status.
 
 ### Dashboard Creation using Tableau------------
 
 * A comprehensive dashboard was built using Tableau, combining various visualizations to present key insights from the analysis. This dashboard provided a holistic view of the Airbnb dataset and its patterns.
--------add more. Check if the previous tablue will be reffered to?
-* https://public.tableau.com/views/SuperHost_1/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link ​
-* https://www.airbnb.com/d/superhost-guest#:~:text=Being%20an%20Airbnb%20Superhost%20is,and%20often%20exceeding%2C%20guest%20expectations 
+* https://public.tableau.com/app/profile/diana.de.los.santos/viz/Project4_17109871260380/HawaiiAirBNBAnalysis
+* https://public.tableau.com/app/profile/diana.de.los.santos/viz/Project4_17109871260380/HawaiiAirBNBAnalysis
 
 ## 3. Data Analysis and Findings
 
@@ -91,7 +89,7 @@ The analysis revealed significant pricing variations based on neighborhood, prop
 
 ### Location-Based Insights
 
-Location-based insights highlighted price disparities in specific regions or neighborhoods. Users can explore these insights interactively.
+Location-based insights highlighted listing property and room type disparities in Hawaii. Users can explore these insights interactively.
 
 ## 4. Conclusion
 
@@ -104,7 +102,7 @@ In conclusion, the Hawaii Airbnb Analysis project successfully provided accurate
 * WHat were the key differences based on season changes?
 * Super Hosts have a slightly higher average rating and have significantly more reviews than other hosts and are the slightly more affordable option on average.
 * The most expensive options have a lower rating than the more affordable options on average.-----
-* This project facilitated learning outcomes in SQL-PG Admin, Seaborn, Python data analysis, geospatial analysis, and data visualization techniques. It enhanced our problem-solving and data-driven decision-making skills.
+* This project facilitated learning outcomes in SQL, sklearn.model selection, sklearn preprocessing, StandardScaler, Python, data analysis, geospatial analysis, and data visualization techniques. It enhanced our problem-solving and data-driven decision-making skills.
 * 
 
 ### Link to Airbnb Website
