@@ -55,7 +55,7 @@ We established a connection to SQL to convert the Airbnb dataset to a table to r
 
 The dataset underwent a comprehensive data cleaning and preparation process. This involved handling missing values, removing duplicates, and converting data types for accurate analysis. The dataset was made ready for for model processing and testing. Utalizing the following libraries: Python, pandas, sklearn.model selection, sklearn preprocessing, StandardScaler, html, matplotlib, Pyplot, seaborn, and numPy.
 
-### Visualization using tableau--------
+### Visualization using tableau
 
 We developed a visualization in tablueau including an overview on the top 25 hosts and AirBNB property types they owned. Utalizing a Room Type Filter with topographic map web application that displays geospatial data from the Airbnb dataset. With an additional data visualization overview of the prevelence for short term airbnb rentals compared to longterm options
 
@@ -63,7 +63,7 @@ We developed a visualization in tablueau including an overview on the top 25 hos
 
 Using the cleaned data, we conducted linear model for the accuracy for predictions on future possible super hosts. Varying across Hawaii in different neighborhoods, Host property types, and seasons. Dynamic plots and charts were created to enable users to explore accuracy outliers, and correlations with other variables.
 
-### Analysis by -----------------
+### Analysis by Host factors
 
 We analyzed the data focused on host response rate, host acceptance rate, whether host is a superhost and more. Preferences based on 
 
@@ -75,7 +75,7 @@ We investigated how some hosts and super hosts own multiple porperties and corre
 
 Dynamic and interactive visualizations enable users to interact with specific regions, property types, or host status.
 
-### Dashboard Creation using Tableau------------
+### Dashboard Creation using Tableau
 
 * A comprehensive dashboard was built using Tableau, combining various visualizations to present key insights from the analysis. This dashboard provided a holistic view of the Airbnb dataset and its patterns.
 * https://public.tableau.com/app/profile/diana.de.los.santos/viz/Project4_17109871260380/HawaiiAirBNBAnalysis
