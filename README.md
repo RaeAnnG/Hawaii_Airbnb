@@ -107,7 +107,7 @@ In conclusion, the Hawaii Airbnb Analysis project successfully provided accurate
 
 ### Link to Airbnb Website
 
-* https://davilafmx.github.io/airbnb_analysis/
+* https://raeanng.github.io/Hawaii_Airbnb/
 
 ### Resources
 We received help from the following
