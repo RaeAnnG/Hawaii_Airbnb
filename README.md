@@ -1,7 +1,5 @@
 # Hawaii_Airbnb
 # Project 4 - Group 1 - Hawaii Airbnb Project
-# Hawaii Airbnb Analysis
-
 ### Team Members:
 *  Jose Davila
 *  Diana De Los Santos
