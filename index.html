@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hawaii AirBNB Analysis</title>
+  <style>
+    body {
+      background-image: url('hawaii.jpg');
+      background-size: cover;
+      background-blend-mode: lighten;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      
+    }
+
+    .container {
+      text-align: center;
+      padding: 100px;
+      color: #ffffff;
+    }
+
+    h1 {
+      font-size: 6em;
+      margin-bottom: 120px;
+      color: #ffffff;
+      text-shadow: 4px 3px #000000;
+    }
+    
+    h2 {
+      font-size: 2.8em;
+      margin-bottom: 60px;
+      color: #ffffff;
+      text-shadow: 3px 2px #000000;
+    }
+    h3 {
+      font-size: 2.2em;
+      margin-bottom: 30px;
+      color: #ffffff;
+      text-shadow: 3px 2px #000000;
+    }
+
+    button {
+      padding: 30px 50px;
+      font-size: 2em;
+      background-color: #4B8FFA;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #01F9C6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- <audio src="music_h.mp3" controls>
+      <p>If you are reading this, it is because your browser does not support the audio element.</p>
+      </audio> -->
+    <h1>Welcome to Hawaii!</h1>
+    <h2>Welcome to Hawaii, a tropical paradise nestled in the heart of the Pacific Ocean.  Whether you're drawn to the majestic volcanoes of the Big Island, the surf-friendly shores of Oahu, or the tranquil serenity of Kauai, Hawaii promises an unforgettable experience for every traveler. </h2>
+    <h3>Explore Hawaii Airbnb interactive map</h3>
+    <button onclick="redirectToAnotherPage1()">Explore Airbnb</button>
+    <h3>Feeling adventurous? Click here to explore things to do!</h3>
+    <button onclick="redirectToAnotherPage2()">Explore Hawaii</button>
+    <h3>Click here to see our analysis</h3>
+    <button onclick="redirectToAnotherPage3()">Dashboard</button>
+  </div>
+
+  <script>
+    function redirectToAnotherPage1() {
+      window.open('https://www.airbnb.com/a/stays/Hawaii--United-States?mlamenities=true&c=.pi0.pk475441696_25650615856&localized_ghost=true&gad_source=1&gclid=CjwKCAjwte-vBhBFEiwAQSv_xSSJewO3WZ5PyHO6cGJ8FQrU4bsBtAh_Vy3L0HJCJqkOVzehVFSkZBoCl9kQAvD_BwE', '_blank');
+    }
+  </script>
+    <script>
+        function redirectToAnotherPage2() {
+          window.open ('https://www.tripadvisor.com/Tourism-g29217-Island_of_Hawaii_Hawaii-Vacations.html', '_blank');
+        }
+      </script>
+          <script>
+            function redirectToAnotherPage3() {
+              window.open ('https://public.tableau.com/views/Project4_17109871260380/HawaiiAirBNBAnalysis?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link', '_blank');
+            }
+          </script>
+</body>
+</html>
