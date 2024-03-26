@@ -8,9 +8,9 @@
 
 #### Introduction to Project
 
-Hawaii_Airbnb:
+#### Hawaii_Airbnb:
 
-----The Airbnb Analysis project focuses on analyzing Airbnb data from the travel industry and property management domain. By leveraging SQL admin and various data analysis machine learning and visualization tools, we extracted valuable insights into predition models for super hosts in Airbnb listings. We focused in the State of Hawaii.
+The Airbnb Analysis project focuses on analyzing Airbnb data from the travel industry and property management domain. By leveraging SQL admin and various data analysis machine learning and visualization tools, we extracted valuable insights into predition models for super hosts in Airbnb listings. We focused in the State of Hawaii.
 
 ####  Objective:
 The primary focus of this data analysis project is to retrieve a prediction of the future super hosts featured on airBNB's based in Hawaii. By analyzing various data sources, we were able to find key variables to use for our predictive model returning a accuracy rating over 85%
@@ -33,11 +33,11 @@ The primary objectives of this project include:
 5. Model demonstrating meaningful predictive power at least 75% classification accuracy or 0.80 R-squared
 6. Creating interactive visualizations for user exploration.
 
-### 1. Data Source -----------------
+### 1. Data Source
 
 The project utilizes SQL, Python, as the data source, containing sample Airbnb data. The data includes information about listings, hosts, super hosts, neighborhoods, pricing, ratings, and more.
 
-### Data source references:---------------?
+### Data source references:
 * http://insideairbnb.com/get-the-data
 * Hawaii Tourism Authority - https://data.uhero.hawaii.edu/dvw/#/module/trend
 * https://data.uhero.hawaii.edu/dvw/#/module/trend
