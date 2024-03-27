@@ -2,8 +2,8 @@
 ### Team Members:
 *  Jose Davila
 *  Diana De Los Santos
+*  Rae Ann Gregg 
 *  Marc Huerta
-*  Rae Ann Gregg
 * Emilia Sanchez
 
 #### Introduction to Project
@@ -28,7 +28,7 @@ The primary objectives of this project include:
 
 1. Data Model Implementation.
 2. A Python script initializes, trains, and evaluates a model utilizing data retrieved and cleaned with SQL.
-3. Analyzing and visualizing pricing variations based on location, and property type, in Hawaii.
+3. Analyzing and visualizing variations based on location, and property type, in Hawaii.
 4. Examining availability patterns and demand fluctuations across seasons.
 5. Model demonstrating meaningful predictive power at least 75% classification accuracy or 0.80 R-squared
 6. Creating interactive visualizations.
@@ -79,7 +79,7 @@ Dynamic and interactive visualizations enable users to interact with specific re
 
 ### Predition accuracy
 
-We were able to achieve prediction accuracy of 85%.
+We were able to achieve prediction accuracy of 87%.
 The analysis revealed variations based on neighborhood, property type, and average price per rating range. Interactive visualizations showcased these trends.
 
 ### Location-Based Insights
